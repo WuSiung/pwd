@@ -17,6 +17,8 @@ class App extends Component {
       'pages/gameDetail/index',
       'pages/web/index',
       'pages/coupon/index',
+      'pages/couponList/index',
+      'pages/notice/index',
     ],
     window: {
       backgroundTextStyle: 'light',
@@ -35,7 +37,7 @@ class App extends Component {
         selectedIconPath: './assets/img/mine_a.png'
       },
       {
-        pagePath: 'pages/coupon/index',
+        pagePath: 'pages/couponList/index',
         text: "抽奖",
         iconPath: './assets/img/web.png',
         selectedIconPath: './assets/img/web_a.png'

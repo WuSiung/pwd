@@ -2,8 +2,15 @@
 
 .@{prefixCls}{
     padding: 30px;
+    width: 100vw;
+    height: calc(100vh - 214px);
+    box-sizing: border-box;
+    padding-bottom: 260px;
     .title,.time{
         font-size: 28px;
+    }
+    .time{
+        line-height: 80px;
     }
     .btn{
         width: 300px;
@@ -19,5 +26,63 @@
     .tips{
         color: #FF7256;
         font-size: 28px;
+    }
+    .input-form{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        .box{
+            background-color: #ffffff;
+            border-radius: 12px;
+            position: absolute;
+            left: 60px;
+            right: 60px;
+            top: 200px;
+            padding: 30px 30px 60px 30px;
+        }
+        .input{
+            display: flex;
+            align-items: center;
+            margin: 40px 0;
+            text{
+                width: 120px;
+                font-size: 28px;
+            }
+            input{
+                border: 1px solid #cccccc;
+                padding: 20px;
+                border-radius: 6px;
+                font-size: 28px;
+                flex: 1;
+            }
+        }
+        .tips{
+            font-size: 24px;
+        }
+        .btns{
+            display: flex;
+            border-radius: 6px;
+            .submit{
+                line-height: 88px;
+                font-size: 28px;
+                background-color: #99CCCC;
+                color: #ffffff;
+                text-align: center;
+                margin-top: 40px;
+                flex: 1;
+            }
+            .cancel{
+                background: rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+    .adver{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
     }
 }

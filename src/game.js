@@ -22,6 +22,64 @@ const gameList = [
         ]
     },
     {
+        gameName: '重置版0.1',
+        id: '15',
+        children: [
+            {
+                passwordName: '游戏激活密码',
+                password: '4567'
+            },
+            {
+                passwordName: '玩家活跃奖励码',
+                password: '7584'
+            },
+            {
+                passwordName: '微信礼包',
+                password: '4123'
+            },
+            {
+                passwordName: '机器人抽奖券领取第一次',
+                password: '214'
+            },
+            {
+                passwordName: '机器人抽奖券领取第二次',
+                password: '567'
+            },
+            {
+                passwordName: '机器人抽奖券领取第三次',
+                password: '145'
+            },
+            {
+                passwordName: 'CG屋密码',
+                password: '584632'
+            },
+            {
+                passwordName: '黑街密码',
+                password: '7894'
+            },
+            {
+                passwordName: '购物街编号1',
+                password: '7584'
+            },
+            {
+                passwordName: '购物街编号2',
+                password: '3521'
+            },
+            {
+                passwordName: '购物街编号3',
+                password: '7421'
+            },
+            {
+                passwordName: '购物街编号4',
+                password: '8543'
+            },
+            {
+                passwordName: '购物街编号5',
+                password: '4561'
+            },
+        ]
+    },
+    {
         gameName: '人生2.26正式版',
         id: '13',
         children: [
